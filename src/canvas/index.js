@@ -1,3 +1,10 @@
+/*
+ * @Description: In User Settings Edit
+ * @Author: your name
+ * @Date: 2019-07-19 15:28:49
+ * @LastEditTime: 2019-08-12 15:25:31
+ * @LastEditors: Please set LastEditors
+ */
 import React, { Component } from 'react';
 class Circle extends Component {
   constructor(props) {
@@ -5,7 +12,6 @@ class Circle extends Component {
     this.state = {  }
   }
   componentDidMount() {
-    console.log(this.canvasRef);
     this.ctx = this.canvasRef.getContext('2d');
     const { width, height } = this.ctx.canvas;
     this.ctx.clearRect(0, 0, width, height);

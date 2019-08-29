@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import * as echarts from 'echarts'
 class Demo extends Component {
-  constructor(props) {
-    super(props);
-  }
   componentDidMount() {
     console.log(this.container);
     let myChart = echarts.init(this.container, 'dark')

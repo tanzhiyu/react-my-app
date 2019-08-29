@@ -1,13 +1,22 @@
-import React, { useState, useEffect } from 'react';
+/*
+ * @Description: In User Settings Edit
+ * @Author: your name
+ * @Date: 2019-06-17 23:03:26
+ * @LastEditTime: 2019-08-12 15:26:45
+ * @LastEditors: Please set LastEditors
+ */
+import React, { useState, useEffect, useRef } from 'react';
+import axios from 'axios';
 
-function Example() {
+
+function Example(props) {
   const [count, setCount] = useState(0);
   const [value, setValue] = useState('')
-  console.log('example');
-  // Similar to componentDidMount and componentDidUpdate:
+  const exampleEl = useRef(null);
   useEffect(() => {
-    // Update the document title using the browser API
-    document.title = `You clicked ${count} times`;
+    document.title = `${count} times`;
+    axios.get('/test').then(res => console.log(res))
+    .catch(err => console.log(err))
     return () => {
       console.log('effect clean up')
     }
@@ -16,16 +25,20 @@ function Example() {
   const handleInputChange = (e) => {
     setValue(e.target.value)
   }
+  const handleClick = () => {
+    console.log(exampleEl)
+    setCount(count + 1)
+  }
 
   return (
-    <div>
+    <div ref={exampleEl}>
+      <p>initCount: {props.initCount}</p>
       <p>You clicked {count} times</p>
-      <input value={value} onChange={handleInputChange} />
-      <button onClick={() => setCount(count + 1)}>
+      <input  value={value} onChange={handleInputChange} />
+      <button onClick={handleClick}>
         Click me
       </button>
     </div>
   );
 }
-
 export default Example;

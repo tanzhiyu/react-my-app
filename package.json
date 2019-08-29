@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ifchange-biz/upload-image": "^0.1.4",
+    "@ifchange-eui/eui": "^0.2.0-alpha.6",
     "antd": "^3.19.8",
+    "axios": "^0.19.0",
     "echarts": "^4.2.1",
+    "http-proxy-middleware": "^0.19.1",
     "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -33,5 +37,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://192.168.6.174:3000/"
 }

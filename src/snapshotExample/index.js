@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { EventEmitter } from 'events';
-export default class SnapshotSample extends React.Component {
+export default class SnapshotSample extends Component {
   constructor(props) {
      super(props);
      this.state = {

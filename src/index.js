@@ -4,12 +4,8 @@ import * as serviceWorker from './serviceWorker';
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import todoApp from './reducers'
-import Demo from './demo'
-import Demo2 from './components/demo2'
 
 import App from './App'
-import High from './high'
-import HooksExample from './Hooks'
 
 import { LocaleProvider } from 'antd'
 import zhCN from 'antd/es/locale-provider/zh_CN';
@@ -20,13 +16,16 @@ import 'antd/dist/antd.css'
 moment.locale('zh-cn');
 
 const store = createStore(todoApp)
+const ThemeContext = React.createContext('light');
 
 ReactDOM.render(
-  <Provider store={store}>
-    <LocaleProvider locale={zhCN}>
-       <App></App>
-    </LocaleProvider>
-  </Provider>,
+  <ThemeContext.Provider value="dark">
+    <Provider store={store}>
+      <LocaleProvider locale={zhCN}>
+        <App></App>
+      </LocaleProvider>
+    </Provider>
+  </ThemeContext.Provider>,
   document.getElementById('root')
 );
 

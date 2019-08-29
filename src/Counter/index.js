@@ -1,21 +1,18 @@
+/*
+ * @Description: In User Settings Edit
+ * @Author: your name
+ * @Date: 2019-07-17 09:54:00
+ * @LastEditTime: 2019-08-12 15:23:47
+ * @LastEditors: Please set LastEditors
+ */
 import React, { Component } from 'react';
 class Counter extends Component {
   constructor(props) {
-    console.log('Counter Constructor')
     super(props);
     this.state = { 
       count: props.initCount
      }
   }
-  // static getDerivedStateFromProps(props, state) {
-  //   console.log('getDerivedStateFromProps', props, state);
-  //   if (props.initCount !== state.count) {
-  //     return {
-  //       count: props.initCount
-  //     }
-  //   }
-  //   return null;
-  // }
   shouldComponentUpdate(nextProps, nextState) {
     console.log('shouldComponentupdate', nextProps, nextState, this.props, this.state);
     return true
@@ -36,7 +33,6 @@ class Counter extends Component {
     });
   }
   render() { 
-    console.log('Counter Render', this.state);
     return ( 
       <div>
         <p>你点了我{this.state.count}次</p>
