@@ -811,6 +811,13 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@^7.2.0":
+  version "7.6.0"
+  resolved "http://npm.zhinanzhen.ai/@babel%2fruntime/-/runtime-7.6.0.tgz#4fc1d642a9fd0299754e8b5de62c631cf5568205"
+  integrity sha1-T8HWQqn9Apl1Totd5ixjHPVWggU=
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
 "@babel/template@^7.1.0", "@babel/template@^7.4.0", "@babel/template@^7.4.4":
   version "7.4.4"
   resolved "http://npm.zhinanzhen.ai/@babel%2ftemplate/-/template-7.4.4.tgz#f4b88d1225689a08f5bc3a17483545be9e4ed237"
@@ -894,6 +901,98 @@
   dependencies:
     "@hapi/hoek" "8.x.x"
 
+"@ifchange-biz/bubble-form@^0.1.31":
+  version "0.1.31"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-biz%2fbubble-form/-/bubble-form-0.1.31.tgz#aa9360b541811b44d389e6205327b591e780a20a"
+  integrity sha512-ej3upS5VinGdyN1+Dy35+GCn4tZRBUuSPMvhcq4XXn/yVS50ZHErZI/VV7X5wD4eQeg2DZQKIDKv/vM5kCRyNQ==
+  dependencies:
+    "@ifchange-core/text-width" "^0.0.9"
+    "@ifchange-core/use-blur" "0.0.7"
+    "@ifchange-eui/button" "^0.2.15"
+    "@ifchange-eui/form" "^0.2.15"
+    "@ifchange-eui/iconfont" "^0.2.15"
+    "@ifchange-eui/input" "^0.2.15"
+    "@ifchange-eui/popconfirm" "^0.2.15"
+    "@ifchange-eui/select" "^0.2.15"
+    lodash "^4.17.11"
+
+"@ifchange-biz/bubble-picker@^0.1.31":
+  version "0.1.31"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-biz%2fbubble-picker/-/bubble-picker-0.1.31.tgz#1c9baadf9b62494fa9647e6265f2175045cc11da"
+  integrity sha512-QgFJp/+aVOXFxa5KwY/jKKub9tWA4h7NZf9KLTB2I3t61Khm6goeCoUqJs1z878w9zI9DcYKoH3yG9yiuz/0vA==
+  dependencies:
+    "@ifchange-biz/bubble-form" "^0.1.31"
+    "@ifchange-core/compose" "0.0.7"
+    "@ifchange-core/fetch-data" "0.0.7"
+    "@ifchange-eui/button" "^0.2.15"
+    "@ifchange-eui/checkbox" "^0.2.15"
+    "@ifchange-eui/dropdown" "^0.2.15"
+    "@ifchange-eui/form" "^0.2.15"
+    "@ifchange-eui/iconfont" "^0.2.15"
+    "@ifchange-eui/input" "^0.2.15"
+    "@ifchange-eui/loading" "^0.2.15"
+    "@ifchange-eui/menu" "^0.2.15"
+    "@ifchange-eui/popconfirm" "^0.2.15"
+    "@ifchange-eui/scroll" "^0.2.15"
+    "@ifchange-eui/tree" "^0.2.15"
+    axios "^0.19.0"
+    classnames "^2.2.6"
+    lodash "^4.17.11"
+
+"@ifchange-biz/custom-field-dialog@^0.1.31":
+  version "0.1.31"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-biz%2fcustom-field-dialog/-/custom-field-dialog-0.1.31.tgz#7c92302f33cb2864abf669743bed5af0163a5cde"
+  integrity sha512-ajxU2V04aCZilWkBb6ExW43/hSjnfjNqul053kQdcQIokoD/1BVkqHdu2jOi2kTSzsLUDy5hlIKyClOkHfgCDA==
+  dependencies:
+    "@ifchange-core/ajax" "^0.0.7"
+    "@ifchange-eui/eui" "^0.2.15"
+    react-sortable-hoc "^1.9.1"
+
+"@ifchange-biz/filter-bar@^0.1.31":
+  version "0.1.31"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-biz%2ffilter-bar/-/filter-bar-0.1.31.tgz#b747a71fb9de9df6c944f954dee6c9b9a6a3d2bf"
+  integrity sha512-Kk1nZukcA76u4Pjon+6blJfHLCorxw3aDDdh6rgEy6+gA3RGhOdCT2I7THil/omxGwi7Uaiz3r0SpEqEXLImIQ==
+  dependencies:
+    "@ifchange-biz/bubble-form" "^0.1.31"
+    "@ifchange-biz/bubble-picker" "^0.1.31"
+    "@ifchange-biz/custom-field-dialog" "^0.1.31"
+    "@ifchange-biz/industry-picker" "^0.1.31"
+    "@ifchange-biz/novice-guide" "^0.1.31"
+    "@ifchange-core/ajax" "0.0.7"
+    "@ifchange-core/fetch-data" "0.0.7"
+    "@ifchange-core/text-width" "0.0.7"
+    "@ifchange-eui/checkbox" "^0.2.15"
+    "@ifchange-eui/drawer" "^0.2.15"
+    "@ifchange-eui/form" "^0.2.15"
+    "@ifchange-eui/popconfirm" "^0.2.15"
+    "@ifchange-eui/tag" "^0.2.15"
+    "@ifchange-eui/tooltip" "^0.2.15"
+    lodash "^4.17.11"
+
+"@ifchange-biz/industry-picker@^0.1.31":
+  version "0.1.31"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-biz%2findustry-picker/-/industry-picker-0.1.31.tgz#fcf0aa79e63b9dfb4247dfbc343bed9e8b72d771"
+  integrity sha512-1+kkoYFr5jBcXit4wTslhhgRPTANdK3TehwuxIjA7UKsLQSup3MgL/25i+JrITIGX3G5ZswkFlQ9u78c58PdRA==
+  dependencies:
+    "@ifchange-core/ajax" "0.0.7"
+    "@ifchange-eui/empty" "^0.2.15"
+    "@ifchange-eui/iconfont" "^0.2.15"
+    "@ifchange-eui/input" "^0.2.15"
+    "@ifchange-eui/modal" "^0.2.15"
+    "@ifchange-eui/scroll" "^0.2.15"
+    "@ifchange-eui/tag" "^0.2.15"
+    "@ifchange-eui/toast" "^0.2.15"
+    "@ifchange-eui/tree" "^0.2.15"
+    axios "^0.19.0"
+
+"@ifchange-biz/novice-guide@^0.1.31":
+  version "0.1.31"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-biz%2fnovice-guide/-/novice-guide-0.1.31.tgz#5fc4b19ac437e78397213583f223a9af6e681ef7"
+  integrity sha512-xNLr5ubzHdiTbBQsXxjVGXPcbdIvjDbGOPUpytIVrNWkZWrtgodDPS/ymzfvcsJ+swtv+aAy5fhRbYUXGlq3KQ==
+  dependencies:
+    "@ifchange-eui/eui" "^0.2.15"
+    classnames "^2.2.6"
+
 "@ifchange-biz/upload-image@^0.1.4":
   version "0.1.4"
   resolved "http://npm.zhinanzhen.ai/@ifchange-biz%2fupload-image/-/upload-image-0.1.4.tgz#b69ef99718492d16a6d229eb29e427d8fcb658b9"
@@ -902,29 +1001,92 @@
     "@ifchange-eui/eui" "^0.2.3"
     cropperjs "^1.5.3"
 
-"@ifchange-core/compose@^0.0.7":
+"@ifchange-core/ajax-error@^0.0.7":
+  version "0.0.7"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-core%2fajax-error/-/ajax-error-0.0.7.tgz#c9ee1a03458126c37191548dcd66883d4f85a6d5"
+  integrity sha512-BT8T58hziqvn/4zDxzrq5BLPcxCAqFkSB/yf7Q3JPTpqNZbb+88SnpcVN7avtpRVZEMDD884DmNKYrrYwGi9JA==
+
+"@ifchange-core/ajax@0.0.7", "@ifchange-core/ajax@^0.0.7":
+  version "0.0.7"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-core%2fajax/-/ajax-0.0.7.tgz#e7929c6ccd81cf32a89524444c01dfa3631a3133"
+  integrity sha512-YT5g4RwidMwhRLvw5amFcy0nEBPjWZWT0k9OutXseoSbT8Xbmn+FNMflgtx0FIvU/TM4vGQe+0ZSpHCm9hKQcA==
+  dependencies:
+    "@ifchange-core/ajax-error" "^0.0.7"
+    axios "^0.19.0"
+    lodash "^4.17.11"
+    qs "^6.7.0"
+
+"@ifchange-core/cache@^0.0.10":
+  version "0.0.10"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-core%2fcache/-/cache-0.0.10.tgz#fd37d182968f2b6eda68c1e6655f19f6f57396e3"
+  integrity sha512-ErmocEoWH8w56jvNmcfOjM0jQAJyxI7R5X4b+1CTwbQzJdq1cMiSIeFdcYlq8C5xzRZNSwX3YXyiF17Ni+tpaw==
+
+"@ifchange-core/compose@0.0.7", "@ifchange-core/compose@^0.0.7":
   version "0.0.7"
   resolved "http://npm.zhinanzhen.ai/@ifchange-core%2fcompose/-/compose-0.0.7.tgz#30af48fad5a5f1404577a01fe25977f288921ef2"
   integrity sha512-D6zdJQtT5+HPUiuzh4v5VmPCXOTLV4pp8mF/5zAPu+Ig4YtqZNA1fZoa2ndxTFb1TCDXv95icb8vniOjBXWWkQ==
 
-"@ifchange-core/text-width@^0.0.7":
+"@ifchange-core/compose@^0.0.10":
+  version "0.0.10"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-core%2fcompose/-/compose-0.0.10.tgz#6b09e8249a3547390c05887083dec593716e56ed"
+  integrity sha512-cSmkptxrQZAnKRF97CJG/UzIJnBTWMeSHc45jIZOmpWud/b8EUn1ryK0s7JekGDF3GndgvifeKCBVMfKrEzShA==
+
+"@ifchange-core/fetch-data@0.0.7":
+  version "0.0.7"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-core%2ffetch-data/-/fetch-data-0.0.7.tgz#a375957feacf836519ef339b6bf4057484cd5fb6"
+  integrity sha512-gYw/mYNj6N9tmQDIINdmQkBHH0xP3dhqyIQ/1yi15aoGBFoeOvzJZc4gyq3dLhX7y11puMDY906xQP2mrkqm1g==
+  dependencies:
+    "@ifchange-core/ajax" "^0.0.7"
+    axios "^0.19.0"
+    lodash "^4.17.11"
+    object-hash "^1.3.1"
+
+"@ifchange-core/form@0.0.10":
+  version "0.0.10"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-core%2fform/-/form-0.0.10.tgz#04e0ea15eb69da78e3343930aadb90580c86b626"
+  integrity sha512-h0Ok01ALOHvow5aG6L9AWedrUTDHTph8SjMtvMaOCwTEh2bDw/t+Lo3bnREfgnIAQ8MR0qSDKpInmW6h18OopA==
+  dependencies:
+    "@ifchange-core/cache" "^0.0.10"
+    "@ifchange-core/compose" "^0.0.10"
+    lodash "^4.17.11"
+
+"@ifchange-core/text-width@0.0.7", "@ifchange-core/text-width@^0.0.7":
   version "0.0.7"
   resolved "http://npm.zhinanzhen.ai/@ifchange-core%2ftext-width/-/text-width-0.0.7.tgz#d376ae3b9ca6f5472d60fbd6ff0ff6e0e8e95d37"
   integrity sha512-HUAVQrcBzQBebcMt6EGYoUfha1cZ8W2KtQDpzHBNNXYIYxmCKO+QPEwdhpQSD8D/fvG4ne4AAppw/x3e4PU79g==
   dependencies:
     lodash "^4.17.11"
 
+"@ifchange-core/text-width@^0.0.9":
+  version "0.0.9"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-core%2ftext-width/-/text-width-0.0.9.tgz#2708c56973f0953a455e752dd4bc74014186fba1"
+  integrity sha512-UbrBFdaXqP1Ld6+7gwnRr2pT551qpMChCkLrvA8VS8r/BFGQtJ48uXzukP+ftTlNI6B6w5J1/DVQwGcUMAOPiQ==
+  dependencies:
+    lodash "^4.17.11"
+
+"@ifchange-core/use-blur@0.0.7":
+  version "0.0.7"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-core%2fuse-blur/-/use-blur-0.0.7.tgz#5b57bdab5781be435d2753d600bc0185a5232913"
+  integrity sha512-QEJIEabUz/4Wbc7yZql4wvqgovTZ+OWdocJ5IgKHQ7t5pbUEbiDQZ1hJLbg14RNTiFFYa44VBiTJopHmuU0D1g==
+
 "@ifchange-core/use-control-value@^0.0.9":
   version "0.0.9"
   resolved "http://npm.zhinanzhen.ai/@ifchange-core%2fuse-control-value/-/use-control-value-0.0.9.tgz#0e8362792e68d46f6c28b2522510f9ad30e3eb64"
   integrity sha512-W/CmFElBaG138WHgmN5easEoanwefeJLwPHbamvx5jytKbhH2uvIXDEvfMzYziyM6lNt1+FuIZdC0T/FVmvgig==
 
-"@ifchange-eui/alert@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2falert/-/alert-0.2.0-alpha.6.tgz#872a506424027f9a9773e5028d5ae7a3d7c91d9e"
-  integrity sha512-KTeXR7sz4boA9ktYCG1a2Jy8UnzFvUaG1C7Xv5Ruxz4v6lbv80pYmV/5Og8uB/jjVTDh8aiY0MZ4mE12eW0qoQ==
+"@ifchange-eui/affix@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2faffix/-/affix-0.2.15.tgz#e8398ca1c8d7508fb24a9084f7ee4097939933c1"
+  integrity sha512-aHPIfNiQehkwZrqCjdTTggWiqWqZ8bSG2kJFlDWqvwjEqTMHh//+gjf365/xDWBPQBbB+Zz/q5r/XJ6VN4HuwA==
   dependencies:
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
+    add-dom-event-listener "^1.1.0"
+
+"@ifchange-eui/alert@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2falert/-/alert-0.2.15.tgz#5f0626339ac86de818388bd30e87fb2eb5373c36"
+  integrity sha512-Ov7obgCUSzxacriLqNJrsWbo2SZZbED+qN6oHfM7mLSP68NF35OTMiT+xTZDGvJyaUEcmHsQUJ1EpKMRjZc3Lg==
+  dependencies:
+    "@ifchange-eui/iconfont" "0.2.15"
     classnames "^2.2.6"
 
 "@ifchange-eui/alert@0.2.9":
@@ -935,10 +1097,10 @@
     "@ifchange-eui/iconfont" "0.2.9"
     classnames "^2.2.6"
 
-"@ifchange-eui/avatar@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2favatar/-/avatar-0.2.0-alpha.6.tgz#1a593ee6f97faab9623463680c4c627a97663d93"
-  integrity sha512-aaiI+c/qsCEo8rh9twfMkrA35Yh92N/Yws4T92dXRyuvaIYYKw1GX3JI6k5J4cfYQ0qTvtM932j+VBhY7CNd7g==
+"@ifchange-eui/avatar@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2favatar/-/avatar-0.2.15.tgz#915aac86ef4b439043629c39c103fc62b38d838c"
+  integrity sha512-GY4Oq09XN9Fmdk2lmLXdJSqoebavlbEkUaVJzX822lPArIiVdrOJiZVCqjdHrdGdFvB/q9jyAxo/v9djyzRG6g==
   dependencies:
     classnames "^2.2.6"
 
@@ -949,12 +1111,12 @@
   dependencies:
     classnames "^2.2.6"
 
-"@ifchange-eui/back-top@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fback-top/-/back-top-0.2.0-alpha.6.tgz#9aaf3a703c792b85429b0a05c7ad4a49bd4c3e6a"
-  integrity sha512-RE3YsUqZhrG0z5Ns5Zm0i0yK36bVYf+9wFSe/3pqTE4rZmeG+2KF3omF/TlnkF9n99gxox9tJw1k4SoZqbm/pA==
+"@ifchange-eui/back-top@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fback-top/-/back-top-0.2.15.tgz#11d23a281a660544aba477cc97c268e01fd6d3aa"
+  integrity sha512-xCnV92vZwOqdjQ+EliE0SGhURRGMB9RDargCfhqKwYc8o54VQGYBnOG7YbtsaG3aXNq9uE196HErdVfrCoBXXg==
   dependencies:
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
+    "@ifchange-eui/iconfont" "0.2.15"
     raf "^3.4.1"
     rc-util "^4.6.0"
 
@@ -967,10 +1129,10 @@
     raf "^3.4.1"
     rc-util "^4.6.0"
 
-"@ifchange-eui/badge@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fbadge/-/badge-0.2.0-alpha.6.tgz#d183be74ca2986350e6434539f88e81e22cab464"
-  integrity sha512-r/cXxP0m0+Q2K23RErvXhedDNex86IW7iGE4V6SFuKvT8Ena3yIIlHBUpiM73G0Cj57a1aAg9qMRapZJMNRJNA==
+"@ifchange-eui/badge@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fbadge/-/badge-0.2.15.tgz#1b32e58e8a28957dd4c8d216f948e303328abba0"
+  integrity sha512-avJjA0p+Vyo0Vqmx2LypSLJl70QC3usRKTmARrGuahsLMoq7qvCWHCMdMw6i1lmemZE2J4AU3HslERbvzuuwbw==
   dependencies:
     classnames "^2.2.6"
 
@@ -981,10 +1143,10 @@
   dependencies:
     classnames "^2.2.6"
 
-"@ifchange-eui/breadcrumb@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fbreadcrumb/-/breadcrumb-0.2.0-alpha.6.tgz#242c40dd14c81d5d0f724660dd9f82d46ce28f5a"
-  integrity sha512-Q129GGdFzQlwKwp7TfqxGOs9dmu2FtxkHa5Nb9F87sgXP2uUxvu4TH9WKpTlF3BnWSk+OQDRwvjTqb3R9aSucA==
+"@ifchange-eui/breadcrumb@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fbreadcrumb/-/breadcrumb-0.2.15.tgz#9dfdc9ef6b57f67fb59a249548df07262b96e60b"
+  integrity sha512-XDH6Ab70MrVNpJEwwIKUU0L3EBly4Sk7sf50tz5JrAlxtYkhnN/nztxudd5ERqiIoE0TbLelWxyfEdPeFxatvQ==
   dependencies:
     classnames "^2.2.6"
 
@@ -995,12 +1157,12 @@
   dependencies:
     classnames "^2.2.6"
 
-"@ifchange-eui/button@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fbutton/-/button-0.2.0-alpha.6.tgz#f7c146acd33c56793a3a0b9fcdbbccac926ac613"
-  integrity sha512-HLWPDld+WSyJRcjbQFm4C/BlRVsxiKoPa+LbMkQC01q4y2mGYqOA1Cf4anJAbjuLsIRHMlGZW8XcI4wBgJtZYw==
+"@ifchange-eui/button@0.2.15", "@ifchange-eui/button@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fbutton/-/button-0.2.15.tgz#e7898b65168c32c59737cbf14004279b0dd054a9"
+  integrity sha512-P92ftzLkvzY8GMf2mNZlwSf68othIAVuRPGzxyj71hrCmVVsCjG3o5qi9Dw0uj9OMRq0wmDwzqmai2JoChJ2iw==
   dependencies:
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
+    "@ifchange-eui/iconfont" "0.2.15"
     classnames "^2.2.6"
 
 "@ifchange-eui/button@0.2.9":
@@ -1011,13 +1173,13 @@
     "@ifchange-eui/iconfont" "0.2.9"
     classnames "^2.2.6"
 
-"@ifchange-eui/carousel@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fcarousel/-/carousel-0.2.0-alpha.6.tgz#c886ba072c4ff307547ce04f0340467c2a3a2ec7"
-  integrity sha512-kGrAbuE2DLDOPaXWOeZI1SzZVgHMvfVHi4Ujn9aHSSEYS/5QhwJVjIp+E6P78HRP+iL5cNRBlgBLl0cFGdZebg==
+"@ifchange-eui/carousel@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fcarousel/-/carousel-0.2.15.tgz#61823ff2c1a3926d8cadadfcb0235e370986e9d7"
+  integrity sha512-XSiDH7bWqYcssr/z5He17DrqVo82UUn9bQ+IXwS+qC1N5T/6BWzzUCtKVopCpKm9PXlXipFEa5yd2dNNO+Ap9g==
   dependencies:
-    "@ifchange-eui/button" "0.2.0-alpha.6"
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
+    "@ifchange-eui/button" "0.2.15"
+    "@ifchange-eui/iconfont" "0.2.15"
     react-slick "^0.24.0"
 
 "@ifchange-eui/carousel@0.2.9":
@@ -1029,12 +1191,12 @@
     "@ifchange-eui/iconfont" "0.2.9"
     react-slick "^0.24.0"
 
-"@ifchange-eui/checkbox@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fcheckbox/-/checkbox-0.2.0-alpha.6.tgz#462d10f673bea34a894e397b0444adbd85fe7542"
-  integrity sha512-/ZLw4Co6njj9IaB/0OJepC6RPQG1k87/HTqdcUsF0+Pmypt2gdlCRyxzOwnbFE5hwarZLrkBEBWuKJ9sl2+Wtg==
+"@ifchange-eui/checkbox@0.2.15", "@ifchange-eui/checkbox@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fcheckbox/-/checkbox-0.2.15.tgz#7b688a4ac2dd77d2f897c546dc3ce702a4b6e077"
+  integrity sha512-daoHu507lwoZqGH8hf8e2h3KAjOuBA1SZ7j4z7G+YYhdR1VI6LKvD1KvJIjtxiNolV+OcABNY4nT6m/WioWZTA==
   dependencies:
-    "@ifchange-eui/button" "0.2.0-alpha.6"
+    "@ifchange-eui/button" "0.2.15"
     classnames "^2.2.6"
     rc-checkbox "^2.1.6"
     react-lifecycles-compat "^3.0.4"
@@ -1051,12 +1213,12 @@
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.1.0"
 
-"@ifchange-eui/col@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fcol/-/col-0.2.0-alpha.6.tgz#2263c0ed90b9b74de730205d20188b3219629ead"
-  integrity sha512-xNzzS/GZ68gyU6RRxq0+HwAkeojbK+PY30qGxG6tpMS4ex1V9LNwTlnCfyMZj8aKIz4vaVmS+VB/rE9DIkMM7w==
+"@ifchange-eui/col@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fcol/-/col-0.2.15.tgz#d24ba2f89a8481f4f9ef9d9790ce02bd349ebe6b"
+  integrity sha512-f5UFX/LcSPhvQhTzmYW1vjc5UvbOqLE+wRNTHBKxkkovfmX+AOoM2N925KWux0NoqxFWqIF8aSHxqhwcRkq8NQ==
   dependencies:
-    "@ifchange-eui/grid" "0.2.0-alpha.6"
+    "@ifchange-eui/grid" "0.2.15"
 
 "@ifchange-eui/col@0.2.9":
   version "0.2.9"
@@ -1065,12 +1227,12 @@
   dependencies:
     "@ifchange-eui/grid" "0.2.9"
 
-"@ifchange-eui/collapse@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fcollapse/-/collapse-0.2.0-alpha.6.tgz#90e090a2777f1123edc3ef28dcebff3ee50a61f5"
-  integrity sha512-xDEu8mPvNPRaWd9mHkS5eC3R3l3pQWSZpnzPYPz6A9rQxUsdTb1VW21ODZ/9Tt4Vv0IoUL9cO+1g6oeMCp3drQ==
+"@ifchange-eui/collapse@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fcollapse/-/collapse-0.2.15.tgz#550a266728acbbffa0542f1e2929df5d5ab0f8b8"
+  integrity sha512-7TAxvplhmGPQYc/qQC/lnqyTdBnLQmit/6HwNr+MGwv9VNJx5fkyVju1PSKUaevmdsLufbj23ncW42TZPohzvw==
   dependencies:
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
+    "@ifchange-eui/iconfont" "0.2.15"
     classnames "^2.2.6"
     rc-animate "^2.8.3"
 
@@ -1083,15 +1245,15 @@
     classnames "^2.2.6"
     rc-animate "^2.8.3"
 
-"@ifchange-eui/date-picker@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fdate-picker/-/date-picker-0.2.0-alpha.6.tgz#cc2089db11e5e39906f1da45710a01f824d2b761"
-  integrity sha512-9/De3tGlBTDU+EVeduShSKTBDfYivc0uNjKOlwSrBVACweLQpnmNPQVQ77HnPYBvK0EIKJj7OaI3/IJ728vAnw==
+"@ifchange-eui/date-picker@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fdate-picker/-/date-picker-0.2.15.tgz#5a7c3313e5ffd52b228d7d44bb1d05a2144fa8a5"
+  integrity sha512-abxODkkZf9km6jk/8J1WrTSmUVxdSjxf32YkaODdVi80vRiTU7BmP90v75DDgae9Ez/F3iGTDwLylMiu800kag==
   dependencies:
-    "@ifchange-eui/button" "0.2.0-alpha.6"
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/input" "0.2.0-alpha.6"
-    "@ifchange-eui/time-picker" "0.2.0-alpha.6"
+    "@ifchange-eui/button" "0.2.15"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/input" "0.2.15"
+    "@ifchange-eui/time-picker" "0.2.15"
     classnames "^2.2.6"
     moment "^2.24.0"
     rc-calendar "^9.13.4"
@@ -1109,13 +1271,13 @@
     moment "^2.24.0"
     rc-calendar "^9.13.4"
 
-"@ifchange-eui/drawer@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fdrawer/-/drawer-0.2.0-alpha.6.tgz#5043f4bf555c3e5c894d7933663ea7da9ed1e063"
-  integrity sha512-yvbwFZk+VOoy83pFEE0HUYe6K/QLeSWG3bBq+x4DBrDnUSLpMBf+Pq5JxtrkkYgTJ1WJhkJPhBJPRXo0uvHQDw==
+"@ifchange-eui/drawer@0.2.15", "@ifchange-eui/drawer@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fdrawer/-/drawer-0.2.15.tgz#37948b321494f725088580273b992bf5d1e1433c"
+  integrity sha512-iPnytv9tN+bgrUY9aknqKYpBiCPh9VFilZskYz/YP2UFEC1++tCZJzvQAadGWNZfOp4cHjjmao1JWtlKsUic5g==
   dependencies:
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/scroll" "0.2.0-alpha.6"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/scroll" "0.2.15"
     classnames "^2.2.6"
 
 "@ifchange-eui/drawer@0.2.9":
@@ -1127,14 +1289,14 @@
     "@ifchange-eui/scroll" "0.2.9"
     classnames "^2.2.6"
 
-"@ifchange-eui/dropdown@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fdropdown/-/dropdown-0.2.0-alpha.6.tgz#4222b1afde7c8f1e2f70be976298877074a6693f"
-  integrity sha512-xO0LYhseEE5LMQF7dsfpZyDP/WsYRIWtF0Blf1rg28jKhr9DAaSq7lMACtRStW0bQOJGL7Ielvxy/x4nOGCQKA==
+"@ifchange-eui/dropdown@0.2.15", "@ifchange-eui/dropdown@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fdropdown/-/dropdown-0.2.15.tgz#b9136b816b856833a71545c424d4ce35e2e265e6"
+  integrity sha512-zkicvxvZhJ1C4uylV/da62MPnB+GdbAp7bl2J6cHuhT/kmn0YB2XNVor2kJzY988HHfRmNwpdbPKYo6gXNgXZA==
   dependencies:
-    "@ifchange-eui/button" "0.2.0-alpha.6"
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/menu" "0.2.0-alpha.6"
+    "@ifchange-eui/button" "0.2.15"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/menu" "0.2.15"
     classnames "^2.2.6"
     jquery "^3.4.1"
     rc-trigger "^2.6.3"
@@ -1153,12 +1315,12 @@
     rc-trigger "^2.6.3"
     react-lifecycles-compat "^3.0.4"
 
-"@ifchange-eui/empty@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fempty/-/empty-0.2.0-alpha.6.tgz#5aa1d3a0e8daee4591143b30ff96f291af51fe8a"
-  integrity sha512-cc3hhHsldrqwmTJMTDHgxvrQp8ixySX5usnEqfm6xHWzPx4FXTa73wH5X6RkTBszBkI7AObm1mlm9eRa7ZcvNQ==
+"@ifchange-eui/empty@0.2.15", "@ifchange-eui/empty@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fempty/-/empty-0.2.15.tgz#2dcdbeefe8c6a8d1db3fb01a5f00eeb685152a72"
+  integrity sha512-dNkhEeDt0qe/0Yx4nHWTHDdtELGmvSbwKmdnQ7DC5b72nUHLZWwXJCXvNNmb2ciPFsAig90qgpdj7tCBmg50Qw==
   dependencies:
-    "@ifchange-eui/button" "0.2.0-alpha.6"
+    "@ifchange-eui/button" "0.2.15"
     classnames "^2.2.6"
 
 "@ifchange-eui/empty@0.2.9":
@@ -1169,56 +1331,58 @@
     "@ifchange-eui/button" "0.2.9"
     classnames "^2.2.6"
 
-"@ifchange-eui/eui@^0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2feui/-/eui-0.2.0-alpha.6.tgz#8e5ed7d0ce9508ab40dfec6792c28952c9834904"
-  integrity sha512-N6Tvbi1Cv3LT/vRO8NpuSpyWN1flQ4NnZ2g3B6nsmlSk1xJiEVLLRdLlCP9JKqM1UVXYWy2uUmlQKsqDzTyYyA==
+"@ifchange-eui/eui@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2feui/-/eui-0.2.15.tgz#7b7ed0eab2cb4b01bc76d6cc0d7e44eac472306f"
+  integrity sha512-XUFhcRsLu+gc3ch5quB2IW4aamHXI8LNUzYmvloH24gY5tEvVs5iu9wC03pOb3bhw6svVk1fSXqzAahPNDdokA==
   dependencies:
-    "@ifchange-eui/alert" "0.2.0-alpha.6"
-    "@ifchange-eui/avatar" "0.2.0-alpha.6"
-    "@ifchange-eui/back-top" "0.2.0-alpha.6"
-    "@ifchange-eui/badge" "0.2.0-alpha.6"
-    "@ifchange-eui/breadcrumb" "0.2.0-alpha.6"
-    "@ifchange-eui/button" "0.2.0-alpha.6"
-    "@ifchange-eui/carousel" "0.2.0-alpha.6"
-    "@ifchange-eui/checkbox" "0.2.0-alpha.6"
-    "@ifchange-eui/col" "0.2.0-alpha.6"
-    "@ifchange-eui/collapse" "0.2.0-alpha.6"
-    "@ifchange-eui/date-picker" "0.2.0-alpha.6"
-    "@ifchange-eui/drawer" "0.2.0-alpha.6"
-    "@ifchange-eui/dropdown" "0.2.0-alpha.6"
-    "@ifchange-eui/empty" "0.2.0-alpha.6"
-    "@ifchange-eui/form" "0.2.0-alpha.6"
-    "@ifchange-eui/grid" "0.2.0-alpha.6"
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/input" "0.2.0-alpha.6"
-    "@ifchange-eui/input-number" "0.2.0-alpha.6"
-    "@ifchange-eui/input-tag" "0.2.0-alpha.6"
-    "@ifchange-eui/layout" "0.2.0-alpha.6"
-    "@ifchange-eui/loading" "0.2.0-alpha.6"
-    "@ifchange-eui/menu" "0.2.0-alpha.6"
-    "@ifchange-eui/modal" "0.2.0-alpha.6"
-    "@ifchange-eui/notification" "0.2.0-alpha.6"
-    "@ifchange-eui/pagination" "0.2.0-alpha.6"
-    "@ifchange-eui/popconfirm" "0.2.0-alpha.6"
-    "@ifchange-eui/radio" "0.2.0-alpha.6"
-    "@ifchange-eui/rate" "0.2.0-alpha.6"
-    "@ifchange-eui/row" "0.2.0-alpha.6"
-    "@ifchange-eui/scroll" "0.2.0-alpha.6"
-    "@ifchange-eui/select" "0.2.0-alpha.6"
-    "@ifchange-eui/select-tag" "0.2.0-alpha.6"
-    "@ifchange-eui/slider" "0.2.0-alpha.6"
-    "@ifchange-eui/steps" "0.2.0-alpha.6"
-    "@ifchange-eui/switch" "0.2.0-alpha.6"
-    "@ifchange-eui/table" "0.2.0-alpha.6"
-    "@ifchange-eui/tabs" "0.2.0-alpha.6"
-    "@ifchange-eui/tag" "0.2.0-alpha.6"
-    "@ifchange-eui/time-picker" "0.2.0-alpha.6"
-    "@ifchange-eui/timeline" "0.2.0-alpha.6"
-    "@ifchange-eui/toast" "0.2.0-alpha.6"
-    "@ifchange-eui/tooltip" "0.2.0-alpha.6"
-    "@ifchange-eui/tree" "0.2.0-alpha.6"
-    "@ifchange-eui/upload" "0.2.0-alpha.6"
+    "@ifchange-eui/affix" "0.2.15"
+    "@ifchange-eui/alert" "0.2.15"
+    "@ifchange-eui/avatar" "0.2.15"
+    "@ifchange-eui/back-top" "0.2.15"
+    "@ifchange-eui/badge" "0.2.15"
+    "@ifchange-eui/breadcrumb" "0.2.15"
+    "@ifchange-eui/button" "0.2.15"
+    "@ifchange-eui/carousel" "0.2.15"
+    "@ifchange-eui/checkbox" "0.2.15"
+    "@ifchange-eui/col" "0.2.15"
+    "@ifchange-eui/collapse" "0.2.15"
+    "@ifchange-eui/date-picker" "0.2.15"
+    "@ifchange-eui/drawer" "0.2.15"
+    "@ifchange-eui/dropdown" "0.2.15"
+    "@ifchange-eui/empty" "0.2.15"
+    "@ifchange-eui/form" "0.2.15"
+    "@ifchange-eui/grid" "0.2.15"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/input" "0.2.15"
+    "@ifchange-eui/input-number" "0.2.15"
+    "@ifchange-eui/input-tag" "0.2.15"
+    "@ifchange-eui/layout" "0.2.15"
+    "@ifchange-eui/loading" "0.2.15"
+    "@ifchange-eui/menu" "0.2.15"
+    "@ifchange-eui/modal" "0.2.15"
+    "@ifchange-eui/notification" "0.2.15"
+    "@ifchange-eui/pagination" "0.2.15"
+    "@ifchange-eui/popconfirm" "0.2.15"
+    "@ifchange-eui/progress" "0.2.15"
+    "@ifchange-eui/radio" "0.2.15"
+    "@ifchange-eui/rate" "0.2.15"
+    "@ifchange-eui/row" "0.2.15"
+    "@ifchange-eui/scroll" "0.2.15"
+    "@ifchange-eui/select" "0.2.15"
+    "@ifchange-eui/select-tag" "0.2.15"
+    "@ifchange-eui/slider" "0.2.15"
+    "@ifchange-eui/steps" "0.2.15"
+    "@ifchange-eui/switch" "0.2.15"
+    "@ifchange-eui/table" "0.2.15"
+    "@ifchange-eui/tabs" "0.2.15"
+    "@ifchange-eui/tag" "0.2.15"
+    "@ifchange-eui/time-picker" "0.2.15"
+    "@ifchange-eui/timeline" "0.2.15"
+    "@ifchange-eui/toast" "0.2.15"
+    "@ifchange-eui/tooltip" "0.2.15"
+    "@ifchange-eui/tree" "0.2.15"
+    "@ifchange-eui/upload" "0.2.15"
 
 "@ifchange-eui/eui@^0.2.3":
   version "0.2.9"
@@ -1271,27 +1435,27 @@
     "@ifchange-eui/tree" "0.2.9"
     "@ifchange-eui/upload" "0.2.9"
 
-"@ifchange-eui/form@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fform/-/form-0.2.0-alpha.6.tgz#9b08bc21d797b1a9c0901fcf13596ba2235979b9"
-  integrity sha512-tZ66kolhYo3JOO1dvGUxwD4DLFmKHzfyOyNLpEYIYWw+kDie2lCn4uX1EIjt6QHgsECopU/yfJdbd+9Bl/wX4Q==
+"@ifchange-eui/form@0.2.15", "@ifchange-eui/form@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fform/-/form-0.2.15.tgz#ada62a6c5076b456d8109f12ee9712deb5003a0c"
+  integrity sha512-RIExgh2AvuG2ZhXAaYLXs4627NBrg7h35Dp+N4uMfILeyg4GmdlcOfxs12Mt3ZChIf5VooMYPzGU2MLWOBmvZg==
   dependencies:
     "@ifchange-core/compose" "^0.0.7"
     "@ifchange-core/text-width" "^0.0.7"
-    "@ifchange-eui/button" "0.2.0-alpha.6"
-    "@ifchange-eui/checkbox" "0.2.0-alpha.6"
-    "@ifchange-eui/date-picker" "0.2.0-alpha.6"
-    "@ifchange-eui/input" "0.2.0-alpha.6"
-    "@ifchange-eui/input-number" "0.2.0-alpha.6"
-    "@ifchange-eui/input-tag" "0.2.0-alpha.6"
-    "@ifchange-eui/radio" "0.2.0-alpha.6"
-    "@ifchange-eui/rate" "0.2.0-alpha.6"
-    "@ifchange-eui/select" "0.2.0-alpha.6"
-    "@ifchange-eui/select-tag" "0.2.0-alpha.6"
-    "@ifchange-eui/slider" "0.2.0-alpha.6"
-    "@ifchange-eui/switch" "0.2.0-alpha.6"
-    "@ifchange-eui/time-picker" "0.2.0-alpha.6"
-    "@ifchange-eui/tree" "0.2.0-alpha.6"
+    "@ifchange-eui/button" "0.2.15"
+    "@ifchange-eui/checkbox" "0.2.15"
+    "@ifchange-eui/date-picker" "0.2.15"
+    "@ifchange-eui/input" "0.2.15"
+    "@ifchange-eui/input-number" "0.2.15"
+    "@ifchange-eui/input-tag" "0.2.15"
+    "@ifchange-eui/radio" "0.2.15"
+    "@ifchange-eui/rate" "0.2.15"
+    "@ifchange-eui/select" "0.2.15"
+    "@ifchange-eui/select-tag" "0.2.15"
+    "@ifchange-eui/slider" "0.2.15"
+    "@ifchange-eui/switch" "0.2.15"
+    "@ifchange-eui/time-picker" "0.2.15"
+    "@ifchange-eui/tree" "0.2.15"
     classnames "^2.2.6"
     lodash "^4.17.11"
 
@@ -1319,10 +1483,10 @@
     classnames "^2.2.6"
     lodash "^4.17.11"
 
-"@ifchange-eui/grid@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fgrid/-/grid-0.2.0-alpha.6.tgz#cce1501a2fd3ecb9f04a26ca23a40c0659b53ed7"
-  integrity sha512-kdb5hP0ewL5dyx8OjfFU5jNHUqVkt9PmjLpzKDNsa3P8+t4BKHZSRIHqB4y1cS+dB9xm2atGuS5rkaALSccJsw==
+"@ifchange-eui/grid@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fgrid/-/grid-0.2.15.tgz#8ec3fac2643e3e836ce32ff77edd9a8cdb0fc0bc"
+  integrity sha512-6GMU+NEvZXSRDqWAyy3phmgP+1ZrJalK3jaQICsHfhE1/zsGu1SkWsiuj0AJ7jbDr4CdDSjhhS4o8DAYvoOk9A==
   dependencies:
     classnames "^2.2.6"
     enquire.js "^2.1.6"
@@ -1335,10 +1499,10 @@
     classnames "^2.2.6"
     enquire.js "^2.1.6"
 
-"@ifchange-eui/iconfont@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ficonfont/-/iconfont-0.2.0-alpha.6.tgz#0a8191f734a4abc56e4e537d68c6e8d612af981b"
-  integrity sha512-CgcUlGicB+kTlq385uG6CNFhbpEQYSH45IKnhYy30eyNPvLALez9LKbNJ60xbAEA1I1s7tSCu8fczik82pzTlQ==
+"@ifchange-eui/iconfont@0.2.15", "@ifchange-eui/iconfont@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ficonfont/-/iconfont-0.2.15.tgz#754b7b3635763f6ed29fb6736e641ae0fdb3cb13"
+  integrity sha512-jf5gvmr9Ey7CSg00dGirZJBEqXyZrz244cQIOTLeYLVnzEdUovQU1JuYgzQjm980aILEEpR76h+m+FMxVn12Wg==
   dependencies:
     classnames "^2.2.6"
 
@@ -1349,12 +1513,19 @@
   dependencies:
     classnames "^2.2.6"
 
-"@ifchange-eui/input-number@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2finput-number/-/input-number-0.2.0-alpha.6.tgz#d5e3587111634bf55d1390d7a93229690f0d21de"
-  integrity sha512-T+2hBnMiBNUcYOR6G0PXng1nMpkq56vL5JxSvtsewlO+eRodIE+nFvLjGbS0EgpCo3lJyP0StAbKvhyb47Qf2A==
+"@ifchange-eui/iconfont@^0.1.2-alpha.25":
+  version "0.1.2-alpha.27"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ficonfont/-/iconfont-0.1.2-alpha.27.tgz#0f36cd8e1d2117ca3ab93b3b99edee3bed176037"
+  integrity sha512-GVtEfQXfc/RGtGZH5iD+hPOwufYYnitg7G2DO+4ZCCYQgd9Jir4xHBDASWGBxnuQREQF5U5jq9yDPiEnWkZVOA==
   dependencies:
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
+    classnames "^2.2.6"
+
+"@ifchange-eui/input-number@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2finput-number/-/input-number-0.2.15.tgz#a9a373ec265bbc679dfed5b8faac9641926fbdb7"
+  integrity sha512-mLWH+WbUVAVbR66dRBXpiMiLbDl5bdG6vd5Mebdx1OrHRbBAKRJ9cjtZrBTNk0eQIqW0EEmaja73ibAcxDo0dg==
+  dependencies:
+    "@ifchange-eui/iconfont" "0.2.15"
     classnames "^2.2.6"
     rc-input-number "^4.4.2"
 
@@ -1367,16 +1538,16 @@
     classnames "^2.2.6"
     rc-input-number "^4.4.2"
 
-"@ifchange-eui/input-tag@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2finput-tag/-/input-tag-0.2.0-alpha.6.tgz#6aa0f8ae29de031be384defff47fa3cf676e7edd"
-  integrity sha512-yQYBxtMgpY9rIk5oipo6psPrMAMnuH5LYkeXWtc93e/dzAWay8GejLkSkjis0Sf4iY0vAxBGJHs9sztvZ8MuYQ==
+"@ifchange-eui/input-tag@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2finput-tag/-/input-tag-0.2.15.tgz#c7c667c9f1be6f379483dce3c5ac77d165b6231c"
+  integrity sha512-kyFMHUcmU0YEMpuOKeQDok/8bVJWEZQ1Xdge2p3D9OCmtRNWBpn6Ka45bYRnbnlD1WFT/eX2sNYSALHuSI5q1Q==
   dependencies:
-    "@ifchange-eui/button" "0.2.0-alpha.6"
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/input" "0.2.0-alpha.6"
-    "@ifchange-eui/scroll" "0.2.0-alpha.6"
-    "@ifchange-eui/tag" "0.2.0-alpha.6"
+    "@ifchange-eui/button" "0.2.15"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/input" "0.2.15"
+    "@ifchange-eui/scroll" "0.2.15"
+    "@ifchange-eui/tag" "0.2.15"
     classnames "^2.2.6"
     component-classes "^1.2.6"
     dom-scroll-into-view "^1.2.1"
@@ -1411,15 +1582,15 @@
     react-lifecycles-compat "^3.0.4"
     warning "^4.0.3"
 
-"@ifchange-eui/input@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2finput/-/input-0.2.0-alpha.6.tgz#55748f9e2c4b6e4afad3403ecac46bdf0b629b27"
-  integrity sha512-o5ugX2ERxZRmMkagEH1Uu1WC/y/K7uUrr80cmowtV+GO3pOQkn+EPRALcIe6wJdTGPQp1IXCjlF4n+DCl1NLDQ==
+"@ifchange-eui/input@0.2.15", "@ifchange-eui/input@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2finput/-/input-0.2.15.tgz#b79bf3fb47e388e3baa59a668bc67b7b9e19aff5"
+  integrity sha512-KMUB02xCL4KCTo/dZS/XistxUp3FpDAFEP3nDq4Ic4rkdB/p9smRzKBOl3koTSz+8RnKtrGZjufBNMeSmfX9fg==
   dependencies:
-    "@ifchange-eui/button" "0.2.0-alpha.6"
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/scroll" "0.2.0-alpha.6"
-    "@ifchange-eui/select" "0.2.0-alpha.6"
+    "@ifchange-eui/button" "0.2.15"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/scroll" "0.2.15"
+    "@ifchange-eui/select" "0.2.15"
     autosize "^4.0.2"
     classnames "^2.2.6"
     lodash "^4.17.11"
@@ -1441,10 +1612,10 @@
     react-lifecycles-compat "^3.0.4"
     resize-observer-polyfill "^1.5.1"
 
-"@ifchange-eui/layout@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2flayout/-/layout-0.2.0-alpha.6.tgz#9acab7f3d82aa7af128997f03d13d24bce34bb4d"
-  integrity sha512-uK2MpO9UDjrNM6AYmVOtBuYvo4IIUp1C/VOq5sqRYut88egMTDH1SZRMCE4yXYd5PpP/ywh0/KD7fSS8o7H0Mg==
+"@ifchange-eui/layout@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2flayout/-/layout-0.2.15.tgz#4e30fa175fb911fb105c194079a457c295cf90f7"
+  integrity sha512-QcYpBDehudBs0xCTYQFCSbUKcX4t5jPNGu/krMlpXYuMgYWzr7raE+C2kH+ZTOAtrWl6iTchigP1E71utHjOcg==
   dependencies:
     classnames "^2.2.6"
 
@@ -1455,12 +1626,12 @@
   dependencies:
     classnames "^2.2.6"
 
-"@ifchange-eui/loading@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2floading/-/loading-0.2.0-alpha.6.tgz#0aa198e27c638b2ab38bd206e2bb961adca1ce19"
-  integrity sha512-Od8WZju/oFyIHLet+DhNMfGiU8X4RS5IW+12aJsS4SVsoGguTA9dzad7pcUC8CUhxJBkvghRZeMpb4CcK3HzHg==
+"@ifchange-eui/loading@0.2.15", "@ifchange-eui/loading@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2floading/-/loading-0.2.15.tgz#821590ceb615504c350eb693789cbb99f0c14561"
+  integrity sha512-y1UeWM+y3tgq5rM8VymvswSXsjARSzMB12H01rqDxcp9/bQaPuBjjC4vKLhSwXUOhmzx+ESitnBVrlaUYqfVig==
   dependencies:
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
+    "@ifchange-eui/iconfont" "0.2.15"
     classnames "^2.2.6"
 
 "@ifchange-eui/loading@0.2.9":
@@ -1471,13 +1642,13 @@
     "@ifchange-eui/iconfont" "0.2.9"
     classnames "^2.2.6"
 
-"@ifchange-eui/menu@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fmenu/-/menu-0.2.0-alpha.6.tgz#b1f8ff1136a34b75ecb8c497ae134c184fce0b05"
-  integrity sha512-FN7erxz0Zn7gC6d4DBVDyjLB7PHYH6xkmQyvNBjak4qPAPmM8PXqYGgeDg1xfG4I1jgeh4cPM8275sRcTmszaw==
+"@ifchange-eui/menu@0.2.15", "@ifchange-eui/menu@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fmenu/-/menu-0.2.15.tgz#87f6d2fe20570ad5df84ed5f70f9c34a47766741"
+  integrity sha512-us9qMfSHzma/10GaSSy4ieDC8scgXENpIYAW/iCAQ0wiVtio237r6tDriBme7mpXiWD2D6WvCxSdD7pU3Y2/Bg==
   dependencies:
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/scroll" "0.2.0-alpha.6"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/scroll" "0.2.15"
     classnames "^2.2.6"
     omit.js "^1.0.2"
     rc-menu "^7.4.22"
@@ -1493,17 +1664,17 @@
     omit.js "^1.0.2"
     rc-menu "^7.4.22"
 
-"@ifchange-eui/modal@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fmodal/-/modal-0.2.0-alpha.6.tgz#ad1806294509e59920165552e39e5d1907fd2e8d"
-  integrity sha512-Cp+jPERDrUobUPTs76BN+xoRF5GKnrYf1Xqum6oriVWt3oYxw0+1iunSfZ2VP4nbnD8W024e3V1b/u7VvOrWrg==
+"@ifchange-eui/modal@0.2.15", "@ifchange-eui/modal@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fmodal/-/modal-0.2.15.tgz#e433e223710034b12e5bdeba15016911ca8a0e2a"
+  integrity sha512-A0rk8eunLh5I14CHv8tDm1rdeIjoO0k3W1bYklomAGHEKlOKHjSfkcqawlW5AauYcDshMYXPipIVTPK6EXt63w==
   dependencies:
-    "@ifchange-eui/button" "0.2.0-alpha.6"
-    "@ifchange-eui/checkbox" "0.2.0-alpha.6"
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/input" "0.2.0-alpha.6"
-    "@ifchange-eui/loading" "0.2.0-alpha.6"
-    "@ifchange-eui/scroll" "0.2.0-alpha.6"
+    "@ifchange-eui/button" "0.2.15"
+    "@ifchange-eui/checkbox" "0.2.15"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/input" "0.2.15"
+    "@ifchange-eui/loading" "0.2.15"
+    "@ifchange-eui/scroll" "0.2.15"
     classnames "^2.2.6"
     lodash "^4.17.11"
     rc-dialog "^7.4.0"
@@ -1523,12 +1694,12 @@
     lodash "^4.17.11"
     rc-dialog "^7.4.0"
 
-"@ifchange-eui/notification@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fnotification/-/notification-0.2.0-alpha.6.tgz#92eeb8e218f37ea4327c595ece08d1a2f040847c"
-  integrity sha512-edw0/GpcNFckS7PzKk8GCvFTKRqwdm6fEnYXX9dAOIsvG5J2m2aAKsAW//+p97Fskx4ks3OuRMY9UL1TcnU01g==
+"@ifchange-eui/notification@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fnotification/-/notification-0.2.15.tgz#3c572781b4015cb7bded30814bf0a1d1f7ec8456"
+  integrity sha512-Hodukzly+J9e2oAZK0dFpeiA8myjI0bBJ+iWIatrcrD89Fq++DNcdKxP0qs2Yr/UtwOqFESGNhbL6mxoKQkMOw==
   dependencies:
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
+    "@ifchange-eui/iconfont" "0.2.15"
     rc-notification "^3.3.1"
 
 "@ifchange-eui/notification@0.2.9":
@@ -1539,16 +1710,16 @@
     "@ifchange-eui/iconfont" "0.2.9"
     rc-notification "^3.3.1"
 
-"@ifchange-eui/pagination@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fpagination/-/pagination-0.2.0-alpha.6.tgz#c96cdf6d53a009be7cee3a7bf412e6b198ad50c7"
-  integrity sha512-Y7TClIy7KobET/QTan0LJclD0t43WnpXucuygu+2tz2N57IAoa7I//f78STwzrL+kBLs0wGtlBQQTc3SV9rPHg==
+"@ifchange-eui/pagination@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fpagination/-/pagination-0.2.15.tgz#686ea9d777395373856086dd5bdef39849184a78"
+  integrity sha512-tz53k9w+ZkZycZo+Ls2SfZHsb3GndC/V3syo8qeKL6HT0wgnw4y7mPSAAD8qfYq+hfgahZbIeD0VvchU+0JT3Q==
   dependencies:
-    "@ifchange-eui/button" "0.2.0-alpha.6"
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/input" "0.2.0-alpha.6"
-    "@ifchange-eui/select" "0.2.0-alpha.6"
-    "@ifchange-eui/tooltip" "0.2.0-alpha.6"
+    "@ifchange-eui/button" "0.2.15"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/input" "0.2.15"
+    "@ifchange-eui/select" "0.2.15"
+    "@ifchange-eui/tooltip" "0.2.15"
     rc-pagination "^1.18.0"
 
 "@ifchange-eui/pagination@0.2.9":
@@ -1563,14 +1734,14 @@
     "@ifchange-eui/tooltip" "0.2.9"
     rc-pagination "^1.18.0"
 
-"@ifchange-eui/popconfirm@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fpopconfirm/-/popconfirm-0.2.0-alpha.6.tgz#9ed3ee4daefb4d48975fa2267a970c10fb3373ab"
-  integrity sha512-SKrqXGCkU8AH/J/JTsUw91AtUalTne2YhEpGN/i9aZAs7At9ZjDUpuAWGBUJJ1uHv3bL3Y/sXYleYWwqpFnDSQ==
+"@ifchange-eui/popconfirm@0.2.15", "@ifchange-eui/popconfirm@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fpopconfirm/-/popconfirm-0.2.15.tgz#995ff0e5469f5e49a065ee09c7d42857e082d217"
+  integrity sha512-iGVpUBs06J1BnzXRbgUJalIGHipZST6r+HlJ/25pi2VE7rySAw0gw5lR1NVDhnrCS938AKnAqx4t4rwUJQhE3A==
   dependencies:
-    "@ifchange-eui/button" "0.2.0-alpha.6"
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/tooltip" "0.2.0-alpha.6"
+    "@ifchange-eui/button" "0.2.15"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/tooltip" "0.2.15"
 
 "@ifchange-eui/popconfirm@0.2.9":
   version "0.2.9"
@@ -1581,15 +1752,23 @@
     "@ifchange-eui/iconfont" "0.2.9"
     "@ifchange-eui/tooltip" "0.2.9"
 
-"@ifchange-eui/radio@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fradio/-/radio-0.2.0-alpha.6.tgz#dcdf09e5382f7e8b9da4a9cac4d1147c38ee45ae"
-  integrity sha512-TOx7NlR4VqpW12cRtAIzaB/B1lzigC9xW5v44tVU3TxPxtpcLC02MrKTKG+Aw+x0pdbO2QqgJzaGPtUmML9bgQ==
+"@ifchange-eui/progress@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fprogress/-/progress-0.2.15.tgz#369dabe757d71738bf0c3ae1245cbd25bc755394"
+  integrity sha512-wfBgKvEqkYIwtJJrdbCecQW9KXR+0KvEEYi+q02omkW1WbAz3mf487R/Mlnp1fV3V08f4MwTT6Ri2Q3OWdWleQ==
   dependencies:
-    "@ifchange-eui/button" "0.2.0-alpha.6"
-    "@ifchange-eui/dropdown" "0.2.0-alpha.6"
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/menu" "0.2.0-alpha.6"
+    "@ifchange-eui/iconfont" "^0.1.2-alpha.25"
+    rc-progress "^2.5.2"
+
+"@ifchange-eui/radio@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fradio/-/radio-0.2.15.tgz#e94a1f3e10dbf2140bd7547f423f4a30b1e85f4a"
+  integrity sha512-mD2mHd1x9tJcaXzGK6v8v5G8pZIfWqdyWA1ADrjcgO0yzqYeYLBzdDUdyW6O7zJKQ4xgeHmBhafj1eXYh75t5w==
+  dependencies:
+    "@ifchange-eui/button" "0.2.15"
+    "@ifchange-eui/dropdown" "0.2.15"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/menu" "0.2.15"
     classnames "^2.2.6"
     rc-checkbox "^2.1.6"
     rc-menu "^7.4.23"
@@ -1611,12 +1790,12 @@
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.1.0"
 
-"@ifchange-eui/rate@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2frate/-/rate-0.2.0-alpha.6.tgz#b5b8423f5f7c33f2358bfd23a7d473ada63776b0"
-  integrity sha512-Vwhzkk0BiK4c+dpCn4T++aeOlCG9Ou8FsaMeYIW6/py64lG1wGEHXgBHNX55dBAMHXiqdkRWtSm+CEO1RX4EIw==
+"@ifchange-eui/rate@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2frate/-/rate-0.2.15.tgz#44dd63f676ea738fb26d9ecefb791cf55500e05b"
+  integrity sha512-eKmkDHJpkCf/Ai2SphkQ/9WeE/uIt0k9QCJbBPuvTcFI327swtnjUGaHZ3aVLFsxu9b0hd+TK1rkUyyf2hcpfw==
   dependencies:
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
+    "@ifchange-eui/iconfont" "0.2.15"
     classnames "^2.2.6"
     omit.js "^1.0.2"
 
@@ -1629,12 +1808,12 @@
     classnames "^2.2.6"
     omit.js "^1.0.2"
 
-"@ifchange-eui/row@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2frow/-/row-0.2.0-alpha.6.tgz#2197b54dff100ccbcc79780d8e5db4c0736caf68"
-  integrity sha512-Qbi4jRqvfl4OEAyjpokWfBSOH/UcEXsJ1CKUNCLnrFVCjVo5BwztDrffu6k27MkCOTP//nLpW9yClt9kAA0EUg==
+"@ifchange-eui/row@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2frow/-/row-0.2.15.tgz#a9827e436f60a5859d4d53a91bc9ae5fc086de65"
+  integrity sha512-bD1+JEV3Wygyav08SO9/keUqLGxXyYAQ+nCDHmvkZdzBZnbD7AxFketcPFuq9Fkd8zRswqSGSJQg2vjbgXaQGg==
   dependencies:
-    "@ifchange-eui/grid" "0.2.0-alpha.6"
+    "@ifchange-eui/grid" "0.2.15"
 
 "@ifchange-eui/row@0.2.9":
   version "0.2.9"
@@ -1643,10 +1822,10 @@
   dependencies:
     "@ifchange-eui/grid" "0.2.9"
 
-"@ifchange-eui/scroll@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fscroll/-/scroll-0.2.0-alpha.6.tgz#6e8785d91f5bc6b92f904699c507bdd33c0f5368"
-  integrity sha512-4avXx113YxV5rthqFO+NSho6/QQDxRW9bHZoLvMLG8lJs3GzSVxIt38DVCfOpQf9c6D8K8ru+/CP2rVp6LVrOA==
+"@ifchange-eui/scroll@0.2.15", "@ifchange-eui/scroll@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fscroll/-/scroll-0.2.15.tgz#0c0ecff3bcc84e8016d858c4e8ede60d70940fc2"
+  integrity sha512-EdJYPJTUG2h4wSpnWCU4DuxLBfhQQotEKbj306kuu6ssMRy/BhriPuo5CMSIPNhRb5bEMsj6k6nOYLte8G9HZQ==
   dependencies:
     classnames "^2.2.6"
     lodash "^4.17.11"
@@ -1659,16 +1838,16 @@
     classnames "^2.2.6"
     lodash "^4.17.11"
 
-"@ifchange-eui/select-tag@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fselect-tag/-/select-tag-0.2.0-alpha.6.tgz#22a1eb5eb571564a172a99df0f0e7da3c4d8e878"
-  integrity sha512-qF3soUkqx3uK+aY/6yP6e2lb21jK6yaT0M6HQ1m/dVw4kHI8mp1c7cB7Of0YjjxH5Ge81QMJ3m9tgwdPUyrJhw==
+"@ifchange-eui/select-tag@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fselect-tag/-/select-tag-0.2.15.tgz#97e3bf93366087970ee62e2347f654649ce982ec"
+  integrity sha512-RmzvIc/6jy+jghH/iEbjHHdRAUxiAFUxrmm17Wz4rw5re0jYiTw5FkBzBk7EIdmQpjzlLGdN904zGDSIThmz1Q==
   dependencies:
-    "@ifchange-eui/checkbox" "0.2.0-alpha.6"
-    "@ifchange-eui/dropdown" "0.2.0-alpha.6"
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/scroll" "0.2.0-alpha.6"
-    "@ifchange-eui/tag" "0.2.0-alpha.6"
+    "@ifchange-eui/checkbox" "0.2.15"
+    "@ifchange-eui/dropdown" "0.2.15"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/scroll" "0.2.15"
+    "@ifchange-eui/tag" "0.2.15"
     classnames "^2.2.6"
     rc-dropdown "^2.4.1"
 
@@ -1685,17 +1864,17 @@
     classnames "^2.2.6"
     rc-dropdown "^2.4.1"
 
-"@ifchange-eui/select@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fselect/-/select-0.2.0-alpha.6.tgz#056e1aa42f5749c789eb8f4f72e49c342ec3870b"
-  integrity sha512-CwO10fh2u+kxAQgRW92ofdB+DXYyVHon8GWXpveSkz0V7wMUWL3T57VaKA8HCWYJjsNEu4HpHznpO0L3ALKMtA==
+"@ifchange-eui/select@0.2.15", "@ifchange-eui/select@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fselect/-/select-0.2.15.tgz#c2c551f2118322d9818234c07e8a69ddf50d2b91"
+  integrity sha512-hKmNVSNHLFn/5sULzmB4l65fdo4ZKMmaLQYEALMYVJ6jaD55t0pN3LKw5B5lR197m3Kj/j7Ro/pwCvUSZk3yhQ==
   dependencies:
-    "@ifchange-eui/button" "0.2.0-alpha.6"
-    "@ifchange-eui/checkbox" "0.2.0-alpha.6"
-    "@ifchange-eui/dropdown" "0.2.0-alpha.6"
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/input" "0.2.0-alpha.6"
-    "@ifchange-eui/scroll" "0.2.0-alpha.6"
+    "@ifchange-eui/button" "0.2.15"
+    "@ifchange-eui/checkbox" "0.2.15"
+    "@ifchange-eui/dropdown" "0.2.15"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/input" "0.2.15"
+    "@ifchange-eui/scroll" "0.2.15"
     classnames "^2.2.6"
     immutable "^4.0.0-rc.12"
     lodash "^4.17.11"
@@ -1717,10 +1896,10 @@
     lodash "^4.17.11"
     prop-types "^15.7.2"
 
-"@ifchange-eui/slider@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fslider/-/slider-0.2.0-alpha.6.tgz#a56c6bfd3f44f747375baaf384745514ac76af09"
-  integrity sha512-70qjfeO8Qp3RIM7+XDzum8/K4Xn5molF9vpOkhqWi405Qxg0OXotQ8ahfY2yzzU+l8FZ8SOdYS/7CtsY6+d5/w==
+"@ifchange-eui/slider@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fslider/-/slider-0.2.15.tgz#92fa0cbaed4c8e51bf6c971825c39f7deabb72b5"
+  integrity sha512-8cSjgPszfbV87cYn6wL7D0bF/emaPNMNzR2B/YqNwOFsNtZhE2O5BGqfpAncs9x+9RWepbq6spjV/ZNu+fiU/g==
   dependencies:
     rc-slider "^8.6.9"
 
@@ -1731,10 +1910,10 @@
   dependencies:
     rc-slider "^8.6.9"
 
-"@ifchange-eui/steps@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fsteps/-/steps-0.2.0-alpha.6.tgz#3f50eb6752468fd2172125741b2324f060d387bd"
-  integrity sha512-yJBEDCw92gGigxzTlzgVizwrWQLYbkxkT2fv8lpSnnQMGil+8Ta1Fda+tYGV/ulTa+lDcTOmEBizT+wiChX8EA==
+"@ifchange-eui/steps@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fsteps/-/steps-0.2.15.tgz#4b00f0bda7fda65d929d65b7fb42f444f0fae33d"
+  integrity sha512-WUN2AORR293HBe3Suga0qsSN5TOtQzvOdrP8QtMFrPyPQO8wzBvgDwAYahmv6XgLZmItRjZpIvfvNj7TszybHA==
   dependencies:
     classnames "^2.2.6"
 
@@ -1745,10 +1924,10 @@
   dependencies:
     classnames "^2.2.6"
 
-"@ifchange-eui/switch@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fswitch/-/switch-0.2.0-alpha.6.tgz#d07d373f73088d9ee67aa2259c2a21fe6245a7ac"
-  integrity sha512-v9Iw3uHvQCO5vVFECMLUtJtpxGJE+sfYAZZ+oyoLTFdrabLs1AHzlEUwNWoBZ7YV66TNx+iZAPp1LYsKvN+zyQ==
+"@ifchange-eui/switch@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fswitch/-/switch-0.2.15.tgz#ee555d3ca036b0c8786611816663890836056e41"
+  integrity sha512-/rtxCDnbc3C+Oag4+88en9XXI2Y5nHCNEmXUIecW+QPfsN77uwDBUghhSFlEjL/I3vL2v0qtYG1KpldDdhfnzg==
   dependencies:
     "@ifchange-core/use-control-value" "^0.0.9"
     classnames "^2.2.6"
@@ -1763,13 +1942,13 @@
     classnames "^2.2.6"
     rc-switch "^1.9.0"
 
-"@ifchange-eui/table@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ftable/-/table-0.2.0-alpha.6.tgz#fd4d6bb95a18a09bb7853bb66a388af47bf459d9"
-  integrity sha512-MDhAeR01S04SV0prMfAszQgzigkWbesV4bkD4CeUnyRgs7mZft4BgH7XriA964vu6/ch6EcGMWTKBAZycnwFgA==
+"@ifchange-eui/table@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ftable/-/table-0.2.15.tgz#71fbaa64dc8e8a5468220f60c90fc1903a13ac91"
+  integrity sha512-fLmwP3minlFUIZKI/Bl6lzdht64qoNOXqHNLkoaQg5pCediRvfP1zXyFw3xaLT0RaSUrINKxTqM/jJLuNdZ5Fg==
   dependencies:
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/scroll" "0.2.0-alpha.6"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/scroll" "0.2.15"
     classnames "^2.2.6"
     lodash "^4.17.11"
     watch-size "^2.0.0"
@@ -1785,12 +1964,12 @@
     lodash "^4.17.11"
     watch-size "^2.0.0"
 
-"@ifchange-eui/tabs@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ftabs/-/tabs-0.2.0-alpha.6.tgz#cd12dd82d387b360a45b0215fd6350cc589bc44d"
-  integrity sha512-Z+qU061k6UBiJabrpcaKzVKVpGBOmryYFQMWk83K/o1wEWN8KWSBuT78+N+PJU9oOurMNK7v0c6j6iROseilXw==
+"@ifchange-eui/tabs@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ftabs/-/tabs-0.2.15.tgz#3dec5fdbd980284befa11a0f6aee1fbd818853b8"
+  integrity sha512-BkXKk7eg4+ZT61Y0VLq0FJ2XZGu0pQvrjq7jMQe45Rr3SOfbXntrYGILArxiY4bwiYjcsoMdxOhs32fTRiNnDA==
   dependencies:
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
+    "@ifchange-eui/iconfont" "0.2.15"
     classnames "^2.2.6"
     rc-tabs "^9.6.3"
 
@@ -1803,13 +1982,13 @@
     classnames "^2.2.6"
     rc-tabs "^9.6.3"
 
-"@ifchange-eui/tag@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ftag/-/tag-0.2.0-alpha.6.tgz#331b286479927c4a34d2b182ff6c21612b65ac0e"
-  integrity sha512-1OMQCEduEXQNq5CMP6b3OplCOMx7CYwD8YWqNVjX2rnxUZGeCBaSm6atd0ZZ3n3mQjh8891cS04Owq/5Gk4NaQ==
+"@ifchange-eui/tag@0.2.15", "@ifchange-eui/tag@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ftag/-/tag-0.2.15.tgz#37e32ab7efd470aa68abbbd5f96e537711fd0a78"
+  integrity sha512-HvUqstiiPy3kf9WFX8JoUIc/1vICJEnew9S8IPxlWTCknjb7S9XAv9WATdCyPC0TGc+21ZtFerHMrIYxWOjpGg==
   dependencies:
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/tooltip" "0.2.0-alpha.6"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/tooltip" "0.2.15"
     classnames "^2.2.6"
     color "^3.1.1"
 
@@ -1823,14 +2002,14 @@
     classnames "^2.2.6"
     color "^3.1.1"
 
-"@ifchange-eui/time-picker@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ftime-picker/-/time-picker-0.2.0-alpha.6.tgz#17919d69b90af2cf45ca229e1acc8bb445ed42c7"
-  integrity sha512-rOUKQ2bz/TNUdtovxaURQCRiE1R1UyRgREl3qMqCtPWYebmkhfqJAgzC8wQTjoq+5q2uG5doXN+qpbKv2znrLA==
+"@ifchange-eui/time-picker@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ftime-picker/-/time-picker-0.2.15.tgz#867f7440908a13d3be202a0899a6a1eda404b10f"
+  integrity sha512-Ib9SEuoB6EXfkEpg40HvIXZ+6a43+f2zqwP7vCtKGqiiEdrOrywKFb/0tCkv04ekiSR79JBdWVwK5Yhm5DcHEA==
   dependencies:
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/input" "0.2.0-alpha.6"
-    "@ifchange-eui/scroll" "0.2.0-alpha.6"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/input" "0.2.15"
+    "@ifchange-eui/scroll" "0.2.15"
     classnames "^2.2.6"
     moment "^2.24.0"
     rc-trigger "^2.6.2"
@@ -1847,12 +2026,12 @@
     moment "^2.24.0"
     rc-trigger "^2.6.2"
 
-"@ifchange-eui/timeline@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ftimeline/-/timeline-0.2.0-alpha.6.tgz#96767d46efc559d8ae8e5413a15b519ddc7957c3"
-  integrity sha512-+SXf3cE3x146tjdv3Nl10uxX7eD7sOII5TT4EVLe7Gx6gelxqq8sZ2e1p+aP7v6qeqHCr0uLDGxjYaejMaxw7g==
+"@ifchange-eui/timeline@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ftimeline/-/timeline-0.2.15.tgz#d04f032ab8e71c1ecd8bb3e386105e25170bd59a"
+  integrity sha512-tfPSa+KNTMy/GJzXwRc2gNo/88U1zaFgE5ige2ytRa7iADZnmlroWTc9+QBBbUU37Oqvx/u3OEyg8LWtk3EyQA==
   dependencies:
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
+    "@ifchange-eui/iconfont" "0.2.15"
     classnames "^2.2.6"
 
 "@ifchange-eui/timeline@0.2.9":
@@ -1863,12 +2042,12 @@
     "@ifchange-eui/iconfont" "0.2.9"
     classnames "^2.2.6"
 
-"@ifchange-eui/toast@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ftoast/-/toast-0.2.0-alpha.6.tgz#84d3c3b060937996f0eca2e7b30a7eaf8f50e1ac"
-  integrity sha512-av6bLEXs7cyCduO6Zpyj/UJjQ5xUKA8WhvG1Oj/SwMxV2STsOU6WzTgvkd1XsJan/jC7BizNX+1AVMqdX3Tbag==
+"@ifchange-eui/toast@0.2.15", "@ifchange-eui/toast@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ftoast/-/toast-0.2.15.tgz#0c0642b967f98cebcd4464da3042b69267b35713"
+  integrity sha512-mauTpOF8VSYKB4VcCbDgyNv2HVeT1v8sU5/7uI8fjlQskaxzobueJ60JTvkVbZcYeeirTKwlk9eeyMOplXAv8Q==
   dependencies:
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
+    "@ifchange-eui/iconfont" "0.2.15"
     rc-notification "^3.3.1"
 
 "@ifchange-eui/toast@0.2.9":
@@ -1879,10 +2058,10 @@
     "@ifchange-eui/iconfont" "0.2.9"
     rc-notification "^3.3.1"
 
-"@ifchange-eui/tooltip@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ftooltip/-/tooltip-0.2.0-alpha.6.tgz#c862d0b13a8059f660e4ecc5b37cfbb3eda7d8d6"
-  integrity sha512-KeF5q2/L0Rywmlqa/VfIEzLzXupOaAaj7bTYxAyiW5gFymSDfK8rUTRJahvwQQjHWzh92Lw5mV4WesE3EeH+0g==
+"@ifchange-eui/tooltip@0.2.15", "@ifchange-eui/tooltip@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ftooltip/-/tooltip-0.2.15.tgz#b209ab234fc25ffca09831e5494729be22a93d0b"
+  integrity sha512-/FJp1VOXqXEEwus7bnOcYZLh/RojUryM2Y5W1kWl8iWvs/pusmG7U1q+r7YE1/qWvOs31xepysE6NlqYd9L8Qw==
   dependencies:
     classnames "^2.2.6"
     rc-tooltip "^3.7.3"
@@ -1897,16 +2076,16 @@
     rc-tooltip "^3.7.3"
     react-lifecycles-compat "^3.0.4"
 
-"@ifchange-eui/tree@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ftree/-/tree-0.2.0-alpha.6.tgz#dbc355957409a0b89cb03a4ab6e5f945cf95f54a"
-  integrity sha512-/j++bhTsZik6vtkS6AcEEhYTGB4AvqaO2Dj4vMBTVuMkc+YGnBMQqx5aGV2FlZV6sAPBlv2e0lNvMOespUyZEA==
+"@ifchange-eui/tree@0.2.15", "@ifchange-eui/tree@^0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2ftree/-/tree-0.2.15.tgz#f2a22ed2bc1a080a6fe41563322a5ae825c039f2"
+  integrity sha512-4JbDC+2I1bYU0Roa0NV1wd1QelCSS2m7cum3AyV10jga6PIjFYp4eW3+mYttBHGlpE8RDQzMApl0LPFEmJgcng==
   dependencies:
-    "@ifchange-eui/button" "0.2.0-alpha.6"
-    "@ifchange-eui/dropdown" "0.2.0-alpha.6"
-    "@ifchange-eui/iconfont" "0.2.0-alpha.6"
-    "@ifchange-eui/input" "0.2.0-alpha.6"
-    "@ifchange-eui/scroll" "0.2.0-alpha.6"
+    "@ifchange-eui/button" "0.2.15"
+    "@ifchange-eui/dropdown" "0.2.15"
+    "@ifchange-eui/iconfont" "0.2.15"
+    "@ifchange-eui/input" "0.2.15"
+    "@ifchange-eui/scroll" "0.2.15"
     classnames "^2.2.6"
     css-animation "^1.5.0"
     immutable "^4.0.0-rc.12"
@@ -1933,12 +2112,12 @@
     rc-tree "2.1.0"
     react-lifecycles-compat "^3.0.4"
 
-"@ifchange-eui/upload@0.2.0-alpha.6":
-  version "0.2.0-alpha.6"
-  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fupload/-/upload-0.2.0-alpha.6.tgz#abe21398c0ea2f86dbb166559539d0c6feaf8a25"
-  integrity sha512-znuzE656P2BcS5IctfsU2XIh1hneHtUlEkG6Z65SD3aTKQJDiH6vQWU7+wbr3yvemvvWutj27r0FnjenuF4fLw==
+"@ifchange-eui/upload@0.2.15":
+  version "0.2.15"
+  resolved "http://npm.zhinanzhen.ai/@ifchange-eui%2fupload/-/upload-0.2.15.tgz#49f6d006359a9027996db4261c23c2d4b903b256"
+  integrity sha512-sF4lCUFiLCN1YEnGohjZCEZtpkApvxLVh6YWex40I59al1lJBrw4m3H1iNVidUhVZg+FRpGzCWeAQYpZVuUA9g==
   dependencies:
-    "@ifchange-eui/toast" "0.2.0-alpha.6"
+    "@ifchange-eui/toast" "0.2.15"
     classnames "^2.2.6"
     plupload "^2.3.6"
 
@@ -5387,11 +5566,6 @@ fs.realpath@^1.0.0:
   resolved "http://npm.zhinanzhen.ai/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
-fsevents@2.0.6:
-  version "2.0.6"
-  resolved "http://npm.zhinanzhen.ai/fsevents/-/fsevents-2.0.6.tgz#87b19df0bfb4a1a51d7ddb51b01b5f3bedb40c33"
-  integrity sha1-h7Gd8L+0oaUdfdtRsBtfO+20DDM=
-
 fsevents@^1.2.7:
   version "1.2.9"
   resolved "http://npm.zhinanzhen.ai/fsevents/-/fsevents-1.2.9.tgz#3f5ed66583ccd6f400b5a00db6f7e861363e388f"
@@ -7866,7 +8040,7 @@ object-copy@^0.1.0:
     define-property "^0.2.5"
     kind-of "^3.0.3"
 
-object-hash@^1.1.4:
+object-hash@^1.1.4, object-hash@^1.3.1:
   version "1.3.1"
   resolved "http://npm.zhinanzhen.ai/object-hash/-/object-hash-1.3.1.tgz#fde452098a951cb145f039bb7d455449ddc126df"
   integrity sha1-/eRSCYqVHLFF8Dm7fUVUSd3BJt8=
@@ -9191,6 +9365,11 @@ qs@6.7.0:
   resolved "http://npm.zhinanzhen.ai/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha1-QdwaAV49WB8WIXdr4xr7KHapsbw=
 
+qs@^6.7.0:
+  version "6.8.0"
+  resolved "http://npm.zhinanzhen.ai/qs/-/qs-6.8.0.tgz#87b763f0d37ca54200334cd57bb2ef8f68a1d081"
+  integrity sha1-h7dj8NN8pUIAM0zVe7Lvj2ih0IE=
+
 qs@~6.5.2:
   version "6.5.2"
   resolved "http://npm.zhinanzhen.ai/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
@@ -9485,7 +9664,7 @@ rc-pagination@^1.18.0, rc-pagination@~1.20.5:
     prop-types "^15.5.7"
     react-lifecycles-compat "^3.0.4"
 
-rc-progress@~2.5.0:
+rc-progress@^2.5.2, rc-progress@~2.5.0:
   version "2.5.2"
   resolved "http://npm.zhinanzhen.ai/rc-progress/-/rc-progress-2.5.2.tgz#ab01ba4e5d2fa36fc9f6f058b10b720e7315560c"
   integrity sha1-qwG6Tl0vo2/J9vBYsQtyDnMVVgw=
@@ -9819,66 +9998,6 @@ react-route@^1.0.3:
     object-assign "^3.0.0"
     path-to-regexp "^1.2.0"
 
-react-scripts@3.0.1:
-  version "3.0.1"
-  resolved "http://npm.zhinanzhen.ai/react-scripts/-/react-scripts-3.0.1.tgz#e5565350d8069cc9966b5998d3fe3befe3d243ac"
-  integrity sha1-5VZTUNgGnMmWa1mY0/477+PSQ6w=
-  dependencies:
-    "@babel/core" "7.4.3"
-    "@svgr/webpack" "4.1.0"
-    "@typescript-eslint/eslint-plugin" "1.6.0"
-    "@typescript-eslint/parser" "1.6.0"
-    babel-eslint "10.0.1"
-    babel-jest "^24.8.0"
-    babel-loader "8.0.5"
-    babel-plugin-named-asset-import "^0.3.2"
-    babel-preset-react-app "^9.0.0"
-    camelcase "^5.2.0"
-    case-sensitive-paths-webpack-plugin "2.2.0"
-    css-loader "2.1.1"
-    dotenv "6.2.0"
-    dotenv-expand "4.2.0"
-    eslint "^5.16.0"
-    eslint-config-react-app "^4.0.1"
-    eslint-loader "2.1.2"
-    eslint-plugin-flowtype "2.50.1"
-    eslint-plugin-import "2.16.0"
-    eslint-plugin-jsx-a11y "6.2.1"
-    eslint-plugin-react "7.12.4"
-    eslint-plugin-react-hooks "^1.5.0"
-    file-loader "3.0.1"
-    fs-extra "7.0.1"
-    html-webpack-plugin "4.0.0-beta.5"
-    identity-obj-proxy "3.0.0"
-    is-wsl "^1.1.0"
-    jest "24.7.1"
-    jest-environment-jsdom-fourteen "0.1.0"
-    jest-resolve "24.7.1"
-    jest-watch-typeahead "0.3.0"
-    mini-css-extract-plugin "0.5.0"
-    optimize-css-assets-webpack-plugin "5.0.1"
-    pnp-webpack-plugin "1.2.1"
-    postcss-flexbugs-fixes "4.1.0"
-    postcss-loader "3.0.0"
-    postcss-normalize "7.0.1"
-    postcss-preset-env "6.6.0"
-    postcss-safe-parser "4.0.1"
-    react-app-polyfill "^1.0.1"
-    react-dev-utils "^9.0.1"
-    resolve "1.10.0"
-    sass-loader "7.1.0"
-    semver "6.0.0"
-    style-loader "0.23.1"
-    terser-webpack-plugin "1.2.3"
-    ts-pnp "1.1.2"
-    url-loader "1.1.2"
-    webpack "4.29.6"
-    webpack-dev-server "3.2.1"
-    webpack-manifest-plugin "2.0.4"
-    workbox-webpack-plugin "4.2.0"
-  optionalDependencies:
-    fsevents "2.0.6"
-
 react-slick@^0.24.0:
   version "0.24.0"
   resolved "http://npm.zhinanzhen.ai/react-slick/-/react-slick-0.24.0.tgz#1a4e078a82de4e9458255d9ce26aa6f3b17b168b"
@@ -9900,6 +10019,15 @@ react-slick@~0.25.2:
     json2mq "^0.2.0"
     lodash.debounce "^4.0.8"
     resize-observer-polyfill "^1.5.0"
+
+react-sortable-hoc@^1.9.1:
+  version "1.10.1"
+  resolved "http://npm.zhinanzhen.ai/react-sortable-hoc/-/react-sortable-hoc-1.10.1.tgz#c352f26263acbcff9cf266bc755653a56c983a38"
+  integrity sha1-w1LyYmOsvP+c8ma8dVZTpWyYOjg=
+  dependencies:
+    "@babel/runtime" "^7.2.0"
+    invariant "^2.2.4"
+    prop-types "^15.5.7"
 
 react@^16.8.6:
   version "16.9.0"

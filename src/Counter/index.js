@@ -1,45 +1,52 @@
-/*
- * @Description: In User Settings Edit
- * @Author: your name
- * @Date: 2019-07-17 09:54:00
- * @LastEditTime: 2019-08-12 15:23:47
- * @LastEditors: Please set LastEditors
- */
-import React, { Component } from 'react';
-class Counter extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { 
-      count: props.initCount
-     }
-  }
-  shouldComponentUpdate(nextProps, nextState) {
-    console.log('shouldComponentupdate', nextProps, nextState, this.props, this.state);
-    return true
+import React, { useState, useCallback, memo, useRef } from 'react';
+
+const ButtonControl = memo(({text, control}) => {
+  return <button onClick={control}>{text}</button>
+})
+
+function Counter(props) {
+  const [count, setCount] = useState(0);
+
+  const ref = useRef(null);
+
+  function handleAlertClick() {
+    setTimeout(() => {
+      alert('You clicked on: ' + count);
+    }, 3000);
   }
 
-  getSnapshotBeforeUpdate(prevProps, prevState) {
-    console.log('getSnapshotBeforeUpdate', prevProps, prevState, this.props, this.state);
-    return null;
-  }
+  const start = useCallback(() => {
+    if (ref.current) {
+      return
+    }
+    ref.current = setInterval(() => {
+      setCount(c => c + 1);
+    }, 1000);
 
-  componentDidUpdate(prevProps, prevState) {
-    console.log('componentDidUpdate', prevProps, prevState);
-  }
-
-  handleClick = () => {
-    this.setState({
-      count: this.state.count + 1
-    });
-  }
-  render() { 
-    return ( 
-      <div>
-        <p>你点了我{this.state.count}次</p>
-        <button onClick={this.handleClick}>点我</button>
-      </div>
-     );
-  }
+  }, [])
+  
+  const stop = useCallback(() => {
+    if (!ref.current) {
+      return
+    }
+    clearInterval(ref.current);
+    ref.current = null
+  }, []);
+  
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+      <button onClick={handleAlertClick}>
+        Show alert
+      </button>
+      <ButtonControl control={start} text="启动"></ButtonControl>
+      <ButtonControl control={stop} text="停止"></ButtonControl>
+    </div>
+  )
 }
- 
-export default Counter;
+
+
+export default Counter
